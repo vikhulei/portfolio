@@ -22,18 +22,19 @@ const About = () => {
         <CurrentStack>
           <Heading>Current stack:</Heading>
           <Bullet>HTML/CSS/JS</Bullet>
-          <Bullet>React, React Router</Bullet>
-          <Bullet>Styled Components</Bullet>
-          <Bullet>Figma</Bullet>
-          <Bullet>VS Code/CodeSandbox</Bullet>
-          <Bullet>Git, GitHub</Bullet>
           <Bullet>SASS</Bullet>
+          <Bullet>React, React Router</Bullet>
+          <Bullet>VS Code/CodeSandbox</Bullet>
+          <Bullet>Figma</Bullet>
+          <Bullet>Styled Components</Bullet>
+          <Bullet>Git, GitHub</Bullet>
         </CurrentStack>
         <NowLearning>
           <Heading>Now learning:</Heading>
-          <Bullet>Python</Bullet>
+          <Bullet>React Redux</Bullet>
+          <Bullet>Testing using Jest</Bullet>
+          <Bullet>Node.JS/Express</Bullet>
           <Bullet>MongoDB</Bullet>
-          <Bullet>mySQL</Bullet>
         </NowLearning>
       </TextWrapper>
     </Wrapper>

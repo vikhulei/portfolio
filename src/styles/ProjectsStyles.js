@@ -62,6 +62,9 @@ opacity: ${({flip}) => (flip ? "0" : "1")};
 @media screen and (max-width: 800px) {
   height: 80%;
 }
+&:hover {
+  cursor: pointer
+}
 `
 const Back = styled.div `
 position: absolute;
@@ -133,6 +136,9 @@ font-size: 1.5vh;
   height: 40%;
   margin-bottom: 1%;
 };
+&:hover {
+  cursor: pointer
+}
 `
 
 export { Wrapper, TitleProjects, ImagesWrapper, Image, Card, Front, Back, BackText, ButtonsWrapper, Button };
